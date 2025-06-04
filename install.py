@@ -5,7 +5,6 @@ config_path = home_path / '.config'
 
 paths = [
     ('alacritty/alacritty.toml', config_path / 'alacritty/alacritty.toml', False),
-    ('bash/.bashrc', home_path / '.bashrc', False),
     ('neovim', config_path / 'nvim', True),
 ]
 
