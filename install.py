@@ -3,12 +3,13 @@ import os, pathlib
 home_path = pathlib.Path(os.getenv('HOME'))
 config_path = home_path / '.config'
 
-path_list = [
+paths = [
     ('alacritty/alacritty.toml', config_path / 'alacritty/alacritty.toml', False),
+    ('bash/.bashrc', home_path / '.bashrc', False),
     ('neovim', config_path / 'nvim', True),
 ]
 
-for (source, link, is_dir) in path_list:
+for (source, link, is_dir) in paths:
     source_path = pathlib.Path(source).absolute()
     link_path = pathlib.Path(link).absolute()
     
