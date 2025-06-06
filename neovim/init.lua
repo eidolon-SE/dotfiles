@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.coc")
 
 vim.opt.number = true
 vim.opt.tabstop = 2

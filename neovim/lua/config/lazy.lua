@@ -48,6 +48,10 @@ require("lazy").setup({
             dependencies = { "nvim-tree/nvim-web-devicons" },
             config = true
         },
+        {
+            "neoclide/coc.nvim",
+            branch = "release",
+        },
     },
     -- Configure any other settings here. See the documentation for more details.
     -- colorscheme that will be used when installing plugins.
