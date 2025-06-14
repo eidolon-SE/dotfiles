@@ -1,0 +1,4 @@
+{
+  "pylsp.plugins.flake8.maxLineLength": 120,
+  "pylsp.plugins.pycodestyle.maxLineLength": 120
+}
